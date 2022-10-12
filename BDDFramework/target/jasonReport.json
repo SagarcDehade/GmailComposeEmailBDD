@@ -1,0 +1,250 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-27T20:33:41.603Z",
+        "line": 3,
+        "name": "TC1 Verify Facebook Home page title",
+        "description": "",
+        "id": "verify-facebook-home-page-feature;tc1-verify-facebook-home-page-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11826483400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to facebook home page",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.navigateToFacebookHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7978400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I see Facebook home page title is displaying as \"Facebook – log in or sign up\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Facebook – log in or sign up\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinationFiles.FacebookHomePageStep.verifyTitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-27T20:33:54.156Z",
+        "line": 7,
+        "name": "TC2 Verify Facebook Home page log in application",
+        "description": "",
+        "id": "verify-facebook-home-page-feature;tc2-verify-facebook-home-page-log-in-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d104.0.5112.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-20SJK81\u0027, ip: \u0027192.168.79.203\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\91823\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 00b72e0475a349382a8cd44b9af61ef2\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:694)\r\n\tat stepDefinationFiles.FacebookHomePageStep.navigateToFacebookHomePage(FacebookHomePageStep.java:29)\r\n\tat ✽.I navigate to facebook home page(file:///E:/SeleniumAndJavaProgramNew/BDDFramework/src/test/java/featureFiles/FacebookHomePageFeature.feature:8)\r\n",
+              "duration": 6560773700,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I navigate to facebook home page",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.navigateToFacebookHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5508000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I see email text box is displaying",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.verifyEmailTextBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I see password text box is displaying",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.verifyPasswordTextBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I see login button is displaying",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-27T20:34:00.798Z",
+        "line": 20,
+        "name": "TC3 Verify wrong user name and pasword combination for log in",
+        "description": "",
+        "id": "verify-facebook-home-page-feature;tc3-verify-wrong-user-name-and-pasword-combination-for-log-in;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d104.0.5112.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-20SJK81\u0027, ip: \u0027192.168.79.203\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\91823\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50813}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b976f5a7a2e6aa5abe848d3cd4489154\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat stepDefinationFiles.FacebookHomePageStep.navigateToFacebookHomePage(FacebookHomePageStep.java:25)\r\n\tat ✽.I navigate to facebook home page(file:///E:/SeleniumAndJavaProgramNew/BDDFramework/src/test/java/featureFiles/FacebookHomePageFeature.feature:14)\r\n",
+              "duration": 2509971800,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "I navigate to facebook home page",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.navigateToFacebookHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4997400,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I enter email \"abc@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@gmail.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinationFiles.FacebookHomePageStep.enterEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2993900,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I enter password \"asfsfa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"asfsfa\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinationFiles.FacebookHomePageStep.enterpassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I click on log in button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-27T20:34:03.432Z",
+        "line": 21,
+        "name": "TC3 Verify wrong user name and pasword combination for log in",
+        "description": "",
+        "id": "verify-facebook-home-page-feature;tc3-verify-wrong-user-name-and-pasword-combination-for-log-in;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8265953500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I navigate to facebook home page",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.navigateToFacebookHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 99591600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter email \"xyz@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xyz@gmail.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinationFiles.FacebookHomePageStep.enterEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216714200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter password \"asdccs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"asdccs\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinationFiles.FacebookHomePageStep.enterpassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I click on log in button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Facebook Home page Feature",
+    "description": "",
+    "id": "verify-facebook-home-page-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFiles/FacebookHomePageFeature.feature",
+    "tags": []
+  }
+]

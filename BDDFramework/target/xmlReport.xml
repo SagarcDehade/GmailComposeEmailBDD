@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="29.296">
+    <testcase classname="Verify Facebook home page features" name="TC1 Verify facebook home page title" time="7.311">
+        <system-out><![CDATA[Given I navigate to facebook home page......................................passed
+Then I see facebook home page title is displaying as "Facebook – log in or sign up".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Facebook home page features" name="TC2 Verify facebook home page log in application" time="7.599">
+        <system-out><![CDATA[Given I navigate to facebook home page......................................passed
+And I see email text box is displaying......................................passed
+And I see password text box is displaying...................................passed
+Then I see log in button is displaying......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Facebook home page features" name="TC3 Verify wrong user name and password combination for log in" time="6.44">
+        <system-out><![CDATA[Given I navigate to facebook home page......................................passed
+And I enter email "mailto:asafsd@gmail.com".................................passed
+And I enter password "sdfsdfq"..............................................passed
+Then I click on log in button...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Facebook home page features" name="TC3 Verify wrong user name and password combination for log in 2" time="7.778">
+        <system-out><![CDATA[Given I navigate to facebook home page......................................passed
+And I enter email "mailto:fasydfas@gmail.com"...............................passed
+And I enter password "frwesger".............................................passed
+Then I click on log in button...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

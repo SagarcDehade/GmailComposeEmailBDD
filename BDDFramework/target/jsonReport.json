@@ -1,0 +1,255 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-27T21:10:32.265Z",
+        "line": 3,
+        "name": "TC1 Verify facebook home page title",
+        "description": "",
+        "id": "verify-facebook-home-page-features;tc1-verify-facebook-home-page-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7250221900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to facebook home page",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.i_navigate_to_facebook_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6981300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I see facebook home page title is displaying as \"Facebook – log in or sign up\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Facebook – log in or sign up\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinationFiles.FacebookHomePageStep.i_see_facebook_home_page_title_is_displaying_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-27T21:10:39.590Z",
+        "line": 7,
+        "name": "TC2 Verify facebook home page log in application",
+        "description": "",
+        "id": "verify-facebook-home-page-features;tc2-verify-facebook-home-page-log-in-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7456323400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to facebook home page",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.i_navigate_to_facebook_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57232700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I see email text box is displaying",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.verifyEmailTextBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56391400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see password text box is displaying",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.verifyPasswordTextBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24933100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I see log in button is displaying",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.verifyLogInButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-27T21:10:47.200Z",
+        "line": 20,
+        "name": "TC3 Verify wrong user name and password combination for log in",
+        "description": "",
+        "id": "verify-facebook-home-page-features;tc3-verify-wrong-user-name-and-password-combination-for-log-in;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6162644800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I navigate to facebook home page",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.i_navigate_to_facebook_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 123797500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter email \"mailto:asafsd@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mailto:asafsd@gmail.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinationFiles.FacebookHomePageStep.enterEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84928700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter password \"sdfsdfq\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sdfsdfq\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinationFiles.FacebookHomePageStep.enterpassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65335900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on log in button",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.clickLogInButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-27T21:10:53.649Z",
+        "line": 21,
+        "name": "TC3 Verify wrong user name and password combination for log in",
+        "description": "",
+        "id": "verify-facebook-home-page-features;tc3-verify-wrong-user-name-and-password-combination-for-log-in;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7511662900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I navigate to facebook home page",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.i_navigate_to_facebook_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124339700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter email \"mailto:fasydfas@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mailto:fasydfas@gmail.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinationFiles.FacebookHomePageStep.enterEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78891200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter password \"frwesger\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"frwesger\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinationFiles.FacebookHomePageStep.enterpassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60357900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on log in button",
+            "match": {
+              "location": "stepDefinationFiles.FacebookHomePageStep.clickLogInButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Facebook home page features",
+    "description": "",
+    "id": "verify-facebook-home-page-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFiles/FacebookHomePageFeature.feature",
+    "tags": []
+  }
+]
